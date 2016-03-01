@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="贪吃蛇版本2.exe" version="1.0.0.0" publicKeyToken="c81313a879bc0626" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="贪吃蛇版本2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="贪吃蛇版本2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="贪吃蛇版本2.exe" size="13264">
+      <assemblyIdentity name="贪吃蛇版本2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K6ckamb6WK5AK++CNGDEBvVc3up92YwNu7M4NQ4DaXg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="贪吃蛇版本2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1ACE6AN\VS" issuerKeyHash="116321bb4645417ba3f489ecf69583d63f513be7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AByP933pft/20EiUqvASU7CKLuDTDzZ5XuJ6E89Is6I=</DigestValue></Reference></SignedInfo><SignatureValue>QbIJNMjRjJIC1CCYBpfYif/OeCvqU5Gprag90Tj7l3aI5h0cAth9iIO5Z+oE6PBKtADk9T50fmlsrMKDXkPPKSwmAH9M7bPN0r6lXjOQ2qC53so2rM3CG1fZCKpzJ9xiKnqe8Nn8fO4a7XZO1wKkCt6bhbYjQLkh5lHGfsbHK1E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ijVayqONi9QwJlFgXQh4LdZVseqhvdF8HKtZFE6Vgg95dmYXvdzm5cmsNEDrEFhxSN1X2Q7SiVPFCfYGFp0Vazr6ox9S8BTAxI1jR8SryXBQwDCTQhIf+vZOy4m1/Fs3Ly4rt9T4KR3VnGLTtS9TPAT5I2Au/vX30P24j+lHfrc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a2b348cf137ae25e79360fd3e02e8ab05312f0aa9448d0f6df7ee97df78f1c00" Description="" Url=""><as:assemblyIdentity name="贪吃蛇版本2.exe" version="1.0.0.0" publicKeyToken="c81313a879bc0626" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1ACE6AN\VS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9pvphqmQrupFn/XG60SIkCcZkKHILxCiwZLoy85ne18=</DigestValue></Reference></SignedInfo><SignatureValue>eUOOv6ikGWe75dI3jdsuO4vxXP0+oFyVmanUif4dcvOIYaQP7hntrBo3CfcgwAxn9sJ0dircwVf8LHYz0C31qlX+L87/lHqfmyYzFdya1UFpmbWQ/rvwUYudfRbyYfFwBwZ7FSojI0oTlheava9pOkiCyMudAyJ8HSG91vpsuwo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ijVayqONi9QwJlFgXQh4LdZVseqhvdF8HKtZFE6Vgg95dmYXvdzm5cmsNEDrEFhxSN1X2Q7SiVPFCfYGFp0Vazr6ox9S8BTAxI1jR8SryXBQwDCTQhIf+vZOy4m1/Fs3Ly4rt9T4KR3VnGLTtS9TPAT5I2Au/vX30P24j+lHfrc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQM28CuaFQZq5DipmVyCmleTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADEAQQBDAEUANgBBAE4AXABWAFMwHhcNMTYwMzAxMDgyNDAxWhcNMTcwMzAxMTQyNDAxWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADEAQQBDAEUANgBBAE4AXABWAFMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIo1WsqjjYvUMCZRYF0IeC3WVbHqob3RfByrWRROlYIPeXZmF73c5uXJrDRA6xBYcUjdV9kO0olTxQn2BhadFWs6+qMfUvAUwMSNY0fEq8lwUMAwk0ISH/r2TsuJtfxbNy8uK7fU+Ckd1Zxi07UvUzwE+SNgLv7199D9uI/pR363AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAbXiV4horQzwaNkbekE9CfT7NjRdpbNO99JGgbrQw59y0Nojk3FooRg1562SlUBCwnqjlnyHhx4ny7510FKJUcdz/wF0hdcxS/GcQW4h5CcARhm9YgdzKhBiFvARq7YDa6uasUF59Rd/sBu7TcVsjxGDLXz/eOjWvC37wgaUZruw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

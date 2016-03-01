@@ -1,0 +1,12 @@
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\bin\Release\贪吃蛇.exe.config
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\bin\Release\贪吃蛇.exe.manifest
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\bin\Release\贪吃蛇.application
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\bin\Release\贪吃蛇.exe
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\bin\Release\贪吃蛇.pdb
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇版本2.Form1.resources
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.Properties.Resources.resources
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.csproj.GenerateResource.Cache
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.exe.manifest
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.application
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.exe
+F:\program\C#\lizi\贪吃蛇版本2\贪吃蛇版本2\obj\Release\贪吃蛇.pdb
